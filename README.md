@@ -6,8 +6,15 @@ The ERR@HRI challenge aims at addressing the problem of failure detection in hum
 
 ## Dataset 
 
+The dataset README can be found [here](./dataset/data_README.md).
 
 ## Training
+
+You can find the scripted used to calculate model performance [here](./training/get_metrics.py).
+
+The script used to process the data into the training dataset is here(SOON).
+
+Baseline models SOON.
 
 
 ## Proceedings:
