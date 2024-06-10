@@ -4,6 +4,12 @@ Website: https://sites.google.com/cam.ac.uk/err-hri
 
 The ERR@HRI challenge aims at addressing the problem of failure detection in human-robot interaction (HRI) by providing the community with the means to benchmark efforts for mono-modal vs. multi-modal robot failure detection in HRI. 
 
+### Table of contents:
+
+* [Dataset](#dataset)
+* [Training](#training)
+* [Submission](#submission)
+* [Proceedings](#proceedings)
 
 ## Dataset 
 
@@ -162,6 +168,43 @@ Tolerance for metrics is of 1 sample. Performances reported on the unreleased da
 | tolerant precision        | $0.5879408152777608$ |
 | tolerant recall       | $0.5047824945292528$ |
 | tolerant f1      | $0.42395310101831235$ |
+
+
+
+
+## Submission
+
+### Submission Materials
+
+The test dataset will be made available to researchers. By the submission deadline, participants will submit their models predictions, one for each task (RM, UA, IR) in which they decided to participate.
+
+Submissions must be fully reproducible -- that is, given the models, the evaluation team should be able to obtain the same predictions from the test dataset. As such, submission materials **for each task** are:
+
+* y_pred (1 dimensional array of predictions from the test dataset)
+
+* script used to extract groundtruth arrays (i.e., function which takes as input the path to one or multiple session label csv file, and outputs a 1-dimensional array of the groundtruth labels of the data)
+  * must be well documented so its use is intuitive
+  * must include information about prediction frequency
+
+* model and model weights
+
+* seed used to obtain predictions
+
+
+
+### Evaluation
+
+The submitted models, for each task, will be evaluated on two tracks: **overall performance** and **time-tolerant performance**. 
+
+#### Overall performance
+
+We will rank models based on accuracy and F1-score. (...)
+
+#### Time-tolerant performance
+
+We will rank models based on time-tolerant accuracy and F1-score. (...)
+
+
 
 
 ## Proceedings:
