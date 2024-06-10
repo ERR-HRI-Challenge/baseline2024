@@ -174,11 +174,31 @@ Tolerance for metrics is of 1 sample. Performances reported on the unreleased da
 
 ## Submission
 
+### Submission Instructions
+
+#### Code and Results Submission
+
+**Important Dates:**
+**Test set release:** 12th June
+**Final code and results submission:** 23rd June
+
+Participants should submit their code and results via email (errathri@gmail.com).
+
+If the attachment are too large, participants can create a zip uploaded on the cloud. However, the last edit should be by the final deadline (**23rd of June**).
+
+We will release the test set without labels on the **12th of June** and participants will have ten days to refine their models and submit their codes and results (deadline 23rd June).
+
+#### Paper Submission
+**Deadline:** 14th July via EasyChair (link will be added soon)
+
+
 ### Submission Materials
 
-The test dataset will be made available to researchers. By the submission deadline, participants will submit their models predictions, one for each task (RM, UA, IR) in which they decided to participate.
+The test dataset will be made available to researchers. By the submission deadline, participants will submit their models predictions, up to three for each task (RM, UA, IR) in which they decided to participate.
 
-Submissions must be fully reproducible -- that is, given the models, the evaluation team should be able to obtain the same predictions from the test dataset. As such, submission materials **for each task** are:
+Each participant can submit **three models/predictions per task**.
+
+Submissions must be fully reproducible - that is, given the models, the evaluation team should be able to obtain the same predictions from the test dataset. As such, submission materials for each task are:
 
 * y_pred (1 dimensional array of predictions from the test dataset)
 
@@ -198,11 +218,13 @@ The submitted models, for each task, will be evaluated on two tracks: **overall 
 
 #### Overall performance
 
-We will rank models based on accuracy and F1-score. (...)
+We will rank models based on the combined rankings of accuracy and F1-score.
+
+Example: _models are ranked based on accuracy and given points based on their position (1,2,3...). The same process takes place to F1-score. The best model is that which the combined number of points is lowest (min = 2 points)._
 
 #### Time-tolerant performance
 
-We will rank models based on time-tolerant accuracy and F1-score. (...)
+We will rank models based on the combined rankings of accuracy and F1-score.
 
 
 
