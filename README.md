@@ -231,4 +231,22 @@ We will rank models based on the combined rankings of accuracy and F1-score.
 
 ## Proceedings:
 
-TBD
+Micol Spitale, Maria Teresa Parreira, Maia Stiber, Minja Axelsson, Neval Kara, Garima Kankariya, Chien-Ming Huang, Malte Jung, Wendy Ju, and Hatice Gunes. 2024. ERR@HRI 2024 Challenge: Multimodal Detection of Errors and Failures in Human-Robot Interactions. In Proceedings of the 26th International Conference on Multimodal Interaction (ICMI '24). Association for Computing Machinery, New York, NY, USA, 652–656. https://doi.org/10.1145/3678957.3689030
+
+```
+@inproceedings{10.1145/3678957.3689030,
+author = {Spitale, Micol and Parreira, Maria Teresa and Stiber, Maia and Axelsson, Minja and Kara, Neval and Kankariya, Garima and Huang, Chien-Ming and Jung, Malte and Ju, Wendy and Gunes, Hatice},
+title = {ERR@HRI 2024 Challenge: Multimodal Detection of Errors and Failures in Human-Robot Interactions},
+year = {2024},
+isbn = {9798400704628},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3678957.3689030},
+doi = {10.1145/3678957.3689030},
+pages = {652–656},
+numpages = {5},
+keywords = {Benchmarking., Error Detection, Human-Robot Interaction, Multimodal Interaction, Robot Failure},
+location = {San Jose, Costa Rica},
+series = {ICMI '24}
+}
+```
