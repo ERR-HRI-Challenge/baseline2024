@@ -14,7 +14,7 @@
 
 
 * Detect whether there was a robot mistake (e.g., interrupting or not responding to the coachee)
-* **Output: presence of robot mistakes: (0) absent; (1) present **
+* **Output: presence of robot mistakes: (0) absent; (1) present**
 
 
 #### Task 2. Detection of user awkwardness (UA)
@@ -22,7 +22,7 @@
 
 
 * Detect whether the coachees display cues of awkwardness towards the robot (e.g., when the coachee feels uncomfortable interacting with the robot without any robot mistakes)
-* **Output: presence of  user awkwardness: (0) absent; (1) present **
+* **Output: presence of user awkwardness: (0) absent; (1) present **
 
 
 #### Task 3. Detection of interaction ruptures (IR)
@@ -149,4 +149,4 @@ Turn-taking information for each session. This can be used to zero-out Opensmile
 
 #### Openpose [[3](https://github.com/CMU-Perceptual-Computing-Lab/openpose)]
 
-The features provided (at **30 fps**)  _do not correspond directly to the features extracted from Openpose _but rather the relational **distance and velocity** for pairs of spatial body points, in a total of **44** features, corresponding to relational features for 18 body points. For example, the feature distance_4_7 refers to the distance between the hands, while the corresponding velocity is computed over one timeframe. 
+The features provided (at **30 fps**)  _do not correspond directly to the features extracted from Openpose_ but rather the relational **distance and velocity** for pairs of spatial body points, in a total of **44** features, corresponding to relational features for 18 body points. For example, the feature distance_4_7 refers to the distance between the hands, while the corresponding velocity is computed over one timeframe. 
