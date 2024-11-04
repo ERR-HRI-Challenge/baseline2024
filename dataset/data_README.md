@@ -29,7 +29,7 @@
 
 
 
-* Detect whether there was an interaction rupturec(i.e. when the robot makes mistakes described in task 1 and when user displays awkwardness towards the robot described in task 2)
+* Detect whether there was an interaction rupture (i.e. when the robot makes mistakes described in task 1 and when user displays awkwardness towards the robot described in task 2)
 * **Output: presence of interaction ruptures: (0) absent; (1) present**
 
 **Total Dataset**
